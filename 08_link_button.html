@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Buttons</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a{
+            color:#333;
+            /* no blue line decoration */
+            text-decoration: none;
+        }
+
+        a:hover{
+            /* change color when hovering */
+            color:coral;
+            font-size: 10px;
+            text-decoration: underline;
+        }
+
+        /* a:visited{
+            color:red; 没啥用 很怪
+        } */
+
+        /* a:active{
+            color:red; 按住会变色
+        } */
+
+        /* Button Styling */
+        .btn{
+            background: gold;
+            color: purple;
+            border:none;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .btn:hover{
+            color:#f4f4f4;
+            background: #446190;
+        }
+    </style>
+</head>
+<body>
+    <a class="btn" href="#">My Link</a>
+    <br>
+    <br>
+    <button class="btn">My Button</button>
+</body>
+</html>

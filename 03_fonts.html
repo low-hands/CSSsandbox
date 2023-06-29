@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <!-- use google fonts -->
+    <!-- Kaushan Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- Gloria Hallelujah -->
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <style>
+        #welcome h2, #about h2{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 30px;
+        }
+        #welcome p, #about p{
+            font-family: 'Gloria Hallelujah', cursive;
+            font-size: 18px;
+            line-height: 1.6em;
+        }
+
+        /* span本身没有属性 */
+        #welcome p span{
+            font-weight: bold;
+        }
+
+        #about p span{
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro ex possimus numquam <span>qui quis minima, dolores consequatur optio error</span>, mollitia, veritatis accusamus cum similique itaque cupiditate nam eligendi aperiam.</p>
+    </div>
+    <div id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Aspernatur cumque eligendi quibusdam ullam</span> aliquid enim eaque autem numquam voluptatem fugit.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block</title>
+    <style>
+        li{
+            /* 变成同一行 */
+            display: inline;
+        }
+
+        li a{
+            padding-right: 20px;
+        }
+
+        img{
+            /* important: needs to be block level */
+            display:block;
+            margin:auto;
+        }
+
+        .box{
+            /* can't use width on inline */
+            /* display: inline; */
+            display: inline-block;
+            box-sizing: border-box;
+            width:32%;
+            background: #f4f4f4;
+            padding:20px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">Technology</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">Fashion</a></li>
+    </ul>
+
+    <br><br>
+
+    <img src="./img/th.jpg" alt="My image">
+
+    <br><br>
+
+    <div class="box">
+        <head>heading</head>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aliquid tempore. Et nemo quia tempora dolor reprehenderit, velit voluptatum delectus.</p>
+    </div>
+    <div class="box">
+        <head>heading</head>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aliquid tempore. Et nemo quia tempora dolor reprehenderit, velit voluptatum delectus.</p>
+    </div>
+    <div class="box">
+        <head>heading</head>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aliquid tempore. Et nemo quia tempora dolor reprehenderit, velit voluptatum delectus.</p>
+    </div>
+</body>
+</html>
